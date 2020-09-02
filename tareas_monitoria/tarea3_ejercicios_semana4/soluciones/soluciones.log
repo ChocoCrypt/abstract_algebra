@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.30)  2 SEP 2020 02:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.30)  2 SEP 2020 12:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1078,7 +1078,7 @@ Package pdftex.def Info: ./Images/negro_cara.png  used on input line 38.
 ! Undefined control sequence.
 <argument> ...c}{\protect \vspace {\beforebibskip 
                                                   }}
-l.104 ...nts{toc}{\protect\vspace{\beforebibskip}}
+l.117 ...nts{toc}{\protect\vspace{\beforebibskip}}
                                                   
 ? 
 No file soluciones.bbl.
@@ -1087,10 +1087,10 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 16024 strings out of 492982
- 280033 string characters out of 6134896
+ 16023 strings out of 492982
+ 280025 string characters out of 6134896
  457596 words of memory out of 5000000
- 19426 multiletter control sequences out of 15000+600000
+ 19425 multiletter control sequences out of 15000+600000
  539074 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,6n,35p,10426b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1106,7 +1106,7 @@ amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 
-Output written on soluciones.pdf (2 pages, 134763 bytes).
+Output written on soluciones.pdf (2 pages, 135319 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
