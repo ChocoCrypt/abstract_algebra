@@ -1,0 +1,144 @@
+article example for classicthesis.sty
+\documentclass[10pt,a4paper]{article} % KOMA-Script article scrartcl
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+\usepackage{lipsum}     %lorem ipsum text
+\usepackage{titlesec}   %Section settings
+\usepackage{titling}    %Title settings
+\usepackage[margin=10em]{geometry}  %Adjusting margins
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{amsmath}    %Display equations options
+\usepackage{amssymb}    %More symbols
+\usepackage{xcolor}     %Color settings
+\usepackage{pagecolor}
+\usepackage{mdframed}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{graphicx}
+\graphicspath{ {./Images/} }
+\setlength{\columnsep}{1cm}
+
+% ====| color de la pagina y del fondo |==== %
+\pagecolor{white}
+\color{black}
+
+
+
+\begin{document}
+    %========================{TITLE}====================%
+    \title{\rmfamily\normalfont\spacedallcaps{ Ejercicios semana 3 }}
+    \author{\spacedlowsmallcaps{Rodrigo Castillo}}
+    \date{\today}
+
+    \maketitle
+
+
+     % ====| Loguito |==== %
+    \includegraphics[width=0.1\linewidth]{negro_cara.png}
+    %=======================NOTES GOES HERE===================%
+    \section{escriba el algoritmo para encontrar el maximo comun divisor $
+    gcd(a,b)  $ y para escribir $ ax + by  $ con $a,b \in Z $ }
+
+    \begin{lstlisting}[language=Python]
+        gcd(a,b):
+    if(b==0):
+        return a
+    else:
+        return gcd(b, amodb )
+    \end{lstlisting}
+
+
+    \section{Sea $ m > 2  $  un entero y consideramos $ Z_m  $  . Demuestre que la suma en $ Z_m  $
+    definida como $ [x]_m + [y]_m = [x + y]_m  $  es bien definida, es decir no depende
+    de los representantes elegidos para calcularla}
+        \subsection{demostracion}
+            sean $ x_m , y_m \in Z_m  $ .
+                \subsubsection{caso base}
+                sea $ m = 2  $ , por lo tanto $ x_m + y_m  $  = $ [x+y]_m  $
+                \subsubsection{Inducción}
+                supongamos que $ m  $ es un entero mayor que 2 y que $ x_m +
+                y_m = [x+y]_  $ está bien definido, por lo tanto , sin pérdida
+                de generalidad , $ x_{m+1} + y_{m+1} = [x+y]_m +2 = [x+y]_{m+1}
+                $.
+
+
+    \section{Teorema chino del resto:}
+        \subsection{}
+        $ 6x \equiv 8(mod10)  $
+        \\$ 9x \equiv 15(mod21)  $
+        \\ para resolver esto, hay que hacer uso del teorema chino del resto :
+
+        \subsection{Uso del teorema chino del resto}
+        lo primero que debemos saber es que el $ gcd(10,21)  $sea diferente de 1 para ver si tiene solución:
+        \\ luego de calcularlo, sé que $ gcd(10,21) =1   $ , por lo tanto el sistema tiene solución, ahora...
+        \\
+        $ 6x = 8 + 10k  $
+        \\ $ 9y = 15 + 21p  $
+        \\ ahora...
+        \\ $ 6x \equiv 15(mod21)  $
+        \\ $ 48 + 60k = 15(mod21)  $
+        \\ $ 60k \equiv -33(mod21)  $
+        \\ $ 60k = 1 mod(12)  $
+        \\ $ k = 1 mod(12)  $
+        \\
+
+    \section{}
+
+    \section{Sea $ R  $  un anillo cualquiera. Demuestre que el conjunto $ M_2
+    (R)  $  de las matrices $ 2 \times  2  $  a coeficientes en $ R  $  es un
+    anillo}
+        \subsection{Suma}
+            sean $ a,b,c,d \in R  $ , $ z,x,c,v \in R  $  por lo tanto:
+                \begin{equation}
+                    \begin{pmatrix}
+                        a & b
+                        \\ c & d
+                    \end{pmatrix}
+                    +
+                    \begin{pmatrix}
+                        z & x
+                        \\ m & v
+                    \end{pmatrix}
+                    =
+                    \begin{pmatrix}
+                        a+z & b+x
+                        \\c+m & d+v
+                    \end{pmatrix}
+
+                \end{equation}
+                también es una matriz $ 2 \times 2  $ , además, como $
+                a,b,c,d,z,x,m,v \in R  $ entonces $ a+z \in R , b+x \in R...
+                $ , análogamente pasa lo mismo con la resta , la multiplicación
+                , y todas las propiedades de R.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    %=======================NOTES ENDS HERE===================%
+
+    % bib stuff
+    \nocite{*}
+    \addtocontents{toc}{\protect\vspace{\beforebibskip}}
+    \addcontentsline{toc}{section}{\refname}
+    \bibliographystyle{plain}
+    \bibliography{../Bibliography}
+\end{document}
