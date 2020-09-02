@@ -1,0 +1,92 @@
+% article example for classicthesis.sty
+\documentclass[10pt,a4paper]{article} % KOMA-Script article scrartcl
+\usepackage{lipsum}     %lorem ipsum text
+\usepackage{titlesec}   %Section settings
+\usepackage{titling}    %Title settings
+\usepackage[margin=10em]{geometry}  %Adjusting margins
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{amsmath}    %Display equations options
+\usepackage{amssymb}    %More symbols
+\usepackage{xcolor}     %Color settings
+\usepackage{pagecolor}
+\usepackage{mdframed}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{graphicx}
+\graphicspath{ {./Images/} }
+\setlength{\columnsep}{1cm}
+
+% ====| color de la pagina y del fondo |==== %
+\pagecolor{black}
+\color{white}
+
+
+
+\begin{document}
+    %========================{TITLE}====================%
+    \title{\rmfamily\normalfont\spacedallcaps{ Ejercicos monitoría semana 4 }}
+    \author{\spacedlowsmallcaps{Rodrigo Castillo}}
+    \date{\today}
+
+    \maketitle
+
+
+     % ====| Loguito |==== %
+    \includegraphics[width=0.1\linewidth]{negro_cara.png}
+    %=======================NOTES GOES HERE===================%
+    \section{Sea $ R  $ un anillo, demuestre que }
+        \subsection{si existe la identidad 1 es única}
+        \subsection{si un elemento $ a  $ tiene inverso multiplicativo este es
+        único}
+
+    \section{Demuestre que los siguientes son subanillos de C}
+        \subsection{Los enteros de Gauss}
+            \begin{equation}
+                Z[i] = \{a + bi ,a,b \in Z \}
+            \end{equation}
+
+        \subsection{Los enteros de einstein}
+        \begin{equation}
+                Z[w] = \{a + bw ,a,b \in Z \}
+        \end{equation}
+        donde $ w = e ^{ \frac{2 \pi i}{3} } = \frac{-1 + \sqrt{3} }{3}  $
+
+    \section{Demuestre que si $ \theta : R \to S  $ es un homomorfismo
+    invertible de anillos $ \Rightarrow  $  $ \theta ^{-1} : R \to S  $ también
+    es un homomorfismo de anillos}
+
+    \section{Encuentre el nucleo de los siguientes homomorfismos}
+    \begin{itemize}
+        \item {        $ \theta :[x,y] \to R  $
+    \\ $ f(x,y) \to f(0,0)  $
+    \\ donde $ R[x,y]  $ es el anillo de los polinomios en dos indeterminadas $
+    x  $ y $ y  $ , es decir: cada monomio  tiene la forma $ a_{ij}x ^{i} y
+    ^{j}   $ con $ a_{ij} \in R $y $ i,j \in N  $}
+    \item {$ \theta : R[x] \to C  $ ,
+        \\ $ f(x) \to f(2+i)  $  }
+    \end{itemize}
+
+    sugerencia ,  encuentre el polinomo $ p(x)  $ de grado minimo en $
+    ker(\theta )  $ y después muestre que cualquier elemento de $ ker(\theta )
+    $ es de la forma $ p(x)q(x)  $   por algún $ q(x) \in R[x]  $ .
+
+
+
+
+
+
+
+
+
+    %=======================NOTES ENDS HERE===================%
+
+    % bib stuff
+    \nocite{*}
+    \addtocontents{toc}{\protect\vspace{\beforebibskip}}
+    \addcontentsline{toc}{section}{\refname}
+    \bibliographystyle{plain}
+    \bibliography{../Bibliography}
+\end{document}
