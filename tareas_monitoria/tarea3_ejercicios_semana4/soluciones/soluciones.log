@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.30)  2 SEP 2020 01:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.30)  2 SEP 2020 02:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -947,8 +947,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \GPT@outputbox=\box82
 
 (./soluciones.aux
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
 )
 \openout1 = `soluciones.aux'.
 
@@ -1072,25 +1072,25 @@ File: ./Images/negro_cara.png Graphic file (type png)
 <use ./Images/negro_cara.png>
 Package pdftex.def Info: ./Images/negro_cara.png  used on input line 38.
 (pdftex.def)             Requested size: 39.75317pt x 43.19463pt.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/negro_cara.png>]
 ! Undefined control sequence.
 <argument> ...c}{\protect \vspace {\beforebibskip 
                                                   }}
-l.88 ...ents{toc}{\protect\vspace{\beforebibskip}}
+l.104 ...nts{toc}{\protect\vspace{\beforebibskip}}
                                                   
 ? 
 No file soluciones.bbl.
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/negro_cara.png>] 
-(./soluciones.aux
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
+[2] (./soluciones.aux
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 16022 strings out of 492982
- 280017 string characters out of 6134896
- 456596 words of memory out of 5000000
- 19424 multiletter control sequences out of 15000+600000
+ 16024 strings out of 492982
+ 280033 string characters out of 6134896
+ 457596 words of memory out of 5000000
+ 19426 multiletter control sequences out of 15000+600000
  539074 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,6n,35p,10426b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1106,10 +1106,10 @@ amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 
-Output written on soluciones.pdf (1 page, 132633 bytes).
+Output written on soluciones.pdf (2 pages, 134763 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
