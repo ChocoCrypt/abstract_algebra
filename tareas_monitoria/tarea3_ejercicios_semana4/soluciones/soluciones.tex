@@ -22,9 +22,6 @@
 % ====| color de la pagina y del fondo |==== %
 \pagecolor{black}
 \color{white}
-
-
-
 \begin{document}
     %========================{TITLE}====================%
     \title{\rmfamily\normalfont\spacedallcaps{ Ejercicos monitoría semana 4 }}
@@ -33,31 +30,26 @@
 
     \maketitle
 
-
      % ====| Loguito |==== %
     \includegraphics[width=0.1\linewidth]{negro_cara.png}
     %=======================NOTES GOES HERE===================%
+    % ====| PUNTO 1 |==== %
     \section{Sea $ R  $ un anillo, demuestre que }
         \subsection{si existe la identidad 1 es única}
          Demostracion:
-         \\ Supongamos que existen $ 1  $  y $ 1'  $.
-         \\ por lo tanto, para cada $ a \in  R   $ existe $ b \in R  $ tal que
-         $ ab = 1  $  y $ ab = 1'  $ .
-         \\por lo tanto $ 1 = 1'  $ luego la identidad es única.
-%            demostración por contradicción :
-%            \\ Sea $ R  $ un anillo en el cuál existen dos identidades $ 1  $ y
-%            $ 1'  $ luego existen $ a,b   $ tales que $ a/b = 1  $ y existen $
-%            a,b'  $ tales que $ a/b = 1 '  $  , así , tenemos que $ a - b - k =
-%            1  $ , por lo tanto , $ a -b' - k = 1  $. de esta manera teneomos que
-%            \\ $ a - b -k = 1  $
-%            \\ $ a - b' -k = 1  $
-%            \\ $ -b  = -a + k + 1  $
-%            \\ $ -b'  = -a + k + 1  $
-%            \\ $ b = b'  $
-%            \\ $ 1 = 1'  $
+
+         \\ Supongamos que existen dos indentidades llamados$ 1  $  y $ 1'  $.
+         \\ por lo tanto para todo $ a \in  R  $ se tiene que $ a \times 1 = a   $
+         \\ tambien se tiene que $ a \times 1' = a  $ , por lo tanto ...
+         \\ $ a \times 1 = a  $
+         \\ $ a \times 1' = a  $
+         \\ y por transitividad...
+         \\ $ 1 = 1'  $
+         \\ por lo tanto solamente existe un inverso multiplicativo
 
         \subsection{si un elemento $ a  $ tiene inverso multiplicativo este es
         único}
+
             Supongamos que un elemento $ a \in R  $ tiene múltiples inversos
             multiplicativos,  es decir que para todo $ a \in R  $ existen $ b,
             b' \in R$ tales que $ ab = 1  $ y $ ab' =1 $. por lo tanto
@@ -67,30 +59,64 @@
             \\ luego el inverso multiplicativo en un anillo es único
             \\ (no sé que tanto sentido tenga esta demostración jaja, preguntar)
 
+    % ====| PUNTO 2 |==== %
     \section{Demuestre que los siguientes son subanillos de C}
         \subsection{Los enteros de Gauss}
             \begin{equation}
                 Z[i] = \{a + bi ,a,b \in Z \}
             \end{equation}
 
-            Demostración:
+            % ====| DEMOSTRACION |==== %
+            Demostracion :
+            \\ sean $ c , c' \in  Z[i] $  , luego $ c - c'  $ es de la forma
+            \\ $ a-a' + bb'i a,a' , b,b' \in Z  $  , por lo tanto, note que $
+            a+a' \in Z  $  y que $ bb' \in Z0$ , por lo tanto $ c,c' \in Z  $
             \\
-            sean $ a,a' \in Z[i]  $ , por, por lo tanto
-            \\ $ a = {a+bi , a , b \in Z} $
-            \\ $ a' = a' + b'i , a', b' \in Z   $ .
-            \\luego $ a + a' =   $
+            de forma análoga, se tiene que $ c*c' \in Z  $  , luego $ Z[i]  $
+            es un subanillo de $ R  $ .
+
+            % ====| ACA TERMINA LA DEMOSTRACION DE LOS ANILLO |==== %
 
         \subsection{Los enteros de einstein}
         \begin{equation}
                 Z[w] = \{a + bw ,a,b \in Z \}
         \end{equation}
         donde $ w = e ^{ \frac{2 \pi i}{3} } = \frac{-1 + \sqrt{3} }{3}  $
+            % ====| Demostracion empieza aca |==== %
+            \subsubsection{Demostracion}
+              tengo que $ w = e ^{ \frac{2 \pi i}{3} } = \frac{-1 + \sqrt{3} }{3}  $
+              \\ sean $ n,m \in Z[w]  $ luego $ n-m  $  = $ a_1 -a_2 - b_1 -
+              b_2 w  $
+              \\ por lo tanto , claramente,  $ a_1 - a_2 \in Z  $  , sin
+              embargo falta ver que $ b_1 - b_2 -2w \in Z  $ , por lo tanto ...
+
+              \\$ b_1 b_2 - 2( e ^{ \frac{2 \pi i}{3} } = \frac{-1 + \sqrt{3} }{3})  $
+              \\ note que $ b \in Z  $ , por lo tanto la resta está bien
+              definida por lo tanto la expresion anterior pertenece a $ Z  $  $
+              \\
 
     \section{Demuestre que si $ \theta : R \to S  $ es un homomorfismo
-    invertible de anillos $ \Rightarrow  $  $ \theta ^{-1} : R \to S  $ también
+    invertible de anillos $ \Rightarrow  $  $ \theta ^{-1} : S \to R  $ también
     es un homomorfismo de anillos}
+        \subsection{forma de demostracion}
+            $ \theta a + b  $  = $ \theta a +  \theta b  $
+            $ \theta a  b  $  = $ \theta a   \theta b  $
+
+        \subsection{demostracion}
+            supongamos que $ \varphi :R \to S  $  es un homomorfismo invertible de
+            anillos , por lo tanto , si $ phi(p) = s \implies phi ^{-1} s = p $.
+            \\ demostracion de que es un homomorfismo:
+            \\$ \varphi ^{-1} a + \varphi ^{-1} b = \varphi ^{-1} a+b  $
+            \\ como $ \varphi ^{-1} a \in R   $ y $ \varphi ^{-1} b \in R  $ entonces ..
+            \\ $ \varphi(\varphi ^{1} a) + \varphi(\varphi ^{-1}  b)  = \varphi
+            ^{-1} a + \varphi ^{-b}   $
+            \\.
+
+
 
     \section{Encuentre el nucleo de los siguientes homomorfismos}
+        \subsection{el nucleo es el kernel y es donde llegan todos los 0's}
+
     \begin{itemize}
         \item {        $ \theta :[x,y] \to R  $
     \\ $ f(x,y) \to f(0,0)  $
@@ -104,8 +130,6 @@
     sugerencia ,  encuentre el polinomo $ p(x)  $ de grado minimo en $
     ker(\theta )  $ y después muestre que cualquier elemento de $ ker(\theta )
     $ es de la forma $ p(x)q(x)  $   por algún $ q(x) \in R[x]  $ .
-
-
 
 
 
