@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex parcial1_rodrigo_castillo"] 1599793936 "parcial1_rodrigo_castillo.aux" "parcial1_rodrigo_castillo.bbl" "parcial1_rodrigo_castillo" 1599793936
+["bibtex parcial1_rodrigo_castillo"] 1599795355 "parcial1_rodrigo_castillo.aux" "parcial1_rodrigo_castillo.bbl" "parcial1_rodrigo_castillo" 1599795355
   "../Bibliography.bib" 0 -1 0 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "parcial1_rodrigo_castillo.aux" 1599793909 3447 8842ad40ae45882eae30a30302607c7a ""
+  "parcial1_rodrigo_castillo.aux" 1599795355 3447 226be7b49a09284f5cf8d0247a376395 ""
   "parcial1_rodrigo_castillo.bcf" 0 -1 0 ""
   (generated)
   "parcial1_rodrigo_castillo.blg"
   "parcial1_rodrigo_castillo.bbl"
-["pdflatex"] 1599793909 "parcial1_rodrigo_castillo.tex" "parcial1_rodrigo_castillo.pdf" "parcial1_rodrigo_castillo" 1599793936
+["pdflatex"] 1599795355 "parcial1_rodrigo_castillo.tex" "parcial1_rodrigo_castillo.pdf" "parcial1_rodrigo_castillo" 1599795355
   "/etc/texmf/web2c/texmf.cnf" 1595594532 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -37,11 +37,13 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1480098733 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1480098733 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1480098733 36741 fa121aac0049305630cf160b86157ee4 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1480098733 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1480098733 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1480098733 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1480098733 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1480098733 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1480098733 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf" 1480098812 26223 0286ca123141cff8dd4956c4576d2ef4 ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def" 1518644053 67244 2dce3d67c354c8d92f638d0f8682fb73 ""
@@ -129,10 +131,10 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1596150352 4127295 f21aa6dd5af563c6cba4de0295b9049c ""
   "Images/punto1.png" 1599698372 49131 f6311750ec0774b70d006aea9928c508 ""
   "Images/punto2.png" 1599730386 24758 67dc33816f5c30bbfea6328f7ba0957c ""
-  "parcial1_rodrigo_castillo.aux" 1599793909 3447 8842ad40ae45882eae30a30302607c7a ""
+  "parcial1_rodrigo_castillo.aux" 1599795355 3447 226be7b49a09284f5cf8d0247a376395 ""
   "parcial1_rodrigo_castillo.bbl" 0 -1 0 "bibtex parcial1_rodrigo_castillo"
-  "parcial1_rodrigo_castillo.tex" 1599793923 20778 7e36c910935df8d4dc93b0de80d5b70b ""
+  "parcial1_rodrigo_castillo.tex" 1599795353 21583 74689757c18ad8343c1efa5eb53a38c5 ""
   (generated)
-  "parcial1_rodrigo_castillo.aux"
   "parcial1_rodrigo_castillo.log"
   "parcial1_rodrigo_castillo.pdf"
+  "parcial1_rodrigo_castillo.aux"
