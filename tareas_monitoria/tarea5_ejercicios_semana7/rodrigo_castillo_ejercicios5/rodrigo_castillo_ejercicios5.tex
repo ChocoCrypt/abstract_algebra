@@ -1,0 +1,151 @@
+% article example for classicthesis.sty
+\documentclass[10pt,a4paper]{article} % KOMA-Script article scrartcl
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+\usepackage{lipsum}     %lorem ipsum text
+\usepackage{titlesec}   %Section settings
+\usepackage{titling}    %Title settings
+\usepackage[margin=10em]{geometry}  %Adjusting margins
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{amsmath}    %Display equations options
+\usepackage{amssymb}    %More symbols
+\usepackage{xcolor}     %Color settings
+\usepackage{pagecolor}
+\usepackage{mdframed}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{graphicx}
+\graphicspath{ {./Images/} }
+\setlength{\columnsep}{1cm}
+
+% ====| color de la pagina y del fondo |==== %
+\pagecolor{black}
+\color{white}
+
+
+
+\begin{document}
+    %========================{TITLE}====================%
+    \title{{  Ejercicios álgebra abstracta semana 7  }}
+    \author{{Rodrigo Castillo}}
+    \date{\today}
+
+    \maketitle
+
+
+     % ====| Loguito |==== %
+    \includegraphics[width=0.1\linewidth]{negro_cara.png}
+    %=======================NOTES GOES HERE===================%
+    \section{Sea $ R  $ un anillo con identidad, Demuestre}
+
+        \subsection{El inverso de un elemento $ a  $ si existe es único}
+
+            sea $ R  $ un anillo y $ b  $ un elemento en $ R  $ , sean $ b, b'
+            $ elementos inversos de $ a '  $ , por lo tanto se tiene que $
+            ba = 1  $ y que $ ba'  = 1 $ , así, se tiene lo siguiente:
+            \\
+            $ ab = 1  $
+            \\
+            $ ab' = 1  $
+            \\
+            $ ab = 1(ab') b' $
+            \\
+            $ ab = ab'  $
+            \\
+            $ b = b'  $
+            \\
+            por lo tanto solamente existe un elemento inverso para $ b  $
+
+        \subsection{la identidad de 1 es una unidad y $ 1 ^{-1}  $  =1  }
+
+            \subsubsection{la identidad de 1 es una unidad}
+                sea $ 1  $ la identidad , por lo tanto se tiene que $ 1 \cdot 1
+                $ =$ 1  $ , además, ya sabemos que la identidad es única, por
+                lo tanto es una unidad
+            \subsubsection{ $ 1 ^{-1} =1  $  }
+                sea el elemento $ 1  $ , por lo tanto, existe un elemento $ a
+                $ tal que $ 1 \cdot a  $  = 1, así, tenemos que
+                \\
+                $ 1 \cdot a = 1  $
+                \\
+                $ a = 1  $
+
+
+        \subsection{si $ a  $ es una unidad, entonces $ a ^{-1}   $ tambien lo
+        es y $ (a ^{-1})^{-1}    = 1  $ }
+
+            sea $ a \in R  $ tal que $ a  $ es una unidad, es decir, que existe
+            $ b \in  R  $ tal que $ a \cdot  b = 1  $ , de este modo, se tiene
+            que  existe $ a  $ tal que $ b \cdot a = 1  $ , así, podemos decir
+            que $ b  $ es una unidad en $ R  $ .
+
+        \subsection{sean $ a,b  $ unidades, entonces $ ab  $ es unidad y $
+        (ab)^{-1} = b ^{-1} a ^{-1}   $ }
+            sean $ a,b \in R  $ tales que $ a,b  $ son unidades , de este modo,
+            existen $ c,d  $ tales que $ ac = 1 , bd = 1  $ .
+            \\
+            $ ac = 1  $
+            \\
+            $ bd = 1  $
+            \\
+            $ ab \cdot cd = 1  $
+            \\
+            sea $ k  $  = $ cd  $ , entonces, se tiene $ k \in R  $ tal que $
+            (ab)\cdot k = 1  $ , luego $ (ab)  $ es una unidad.
+
+
+        \section{Sea $ R  $ un dominio de integridad, Demuestre que las
+        unidades de $ R[x]  $  son exactamente los polinomios constantes
+        que son unidades de $ R  $ también}
+
+            supongamos que $ R  $ es un dominio de integridad , por lo tanto $
+            R  $ es un anillo conmutativo que no tiene divisores de $ 0  $ .
+            \\
+            luego las unidades de $ R[x]  $ son $ i_1 , i_2 , i_3 ... i_x-1  $
+            pues no hay divisores de $ 0  $ , por lo tanto son los polinomios
+            constantes $ x_1 , x_2 , x_3 , ... x_n \in R  $  .
+
+
+            \section{Encuentre las unidades del anillo $ Z[i]  $  }
+                ???????????
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    %=======================NOTES ENDS HERE===================%
+
+    % bib stuff
+    \nocite{*}
+    \addtocontents{toc}{{}}
+    \addcontentsline{toc}{section}{\refname}
+    \bibliographystyle{plain}
+    \bibliography{../Bibliography}
+\end{document}
