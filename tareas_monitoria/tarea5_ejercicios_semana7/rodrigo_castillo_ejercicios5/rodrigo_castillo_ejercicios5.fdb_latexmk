@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex rodrigo_castillo_ejercicios5"] 1601533932 "rodrigo_castillo_ejercicios5.aux" "rodrigo_castillo_ejercicios5.bbl" "rodrigo_castillo_ejercicios5" 1601533933
+["bibtex rodrigo_castillo_ejercicios5"] 1601579020 "rodrigo_castillo_ejercicios5.aux" "rodrigo_castillo_ejercicios5.bbl" "rodrigo_castillo_ejercicios5" 1601579020
   "../Bibliography.bib" 0 -1 0 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "rodrigo_castillo_ejercicios5.aux" 1601533933 1487 75f79ed841d8306cb6547b7e6a1e8c2c ""
+  "rodrigo_castillo_ejercicios5.aux" 1601579019 1557 0b8c09b49bbee6f4b3c8728679cf75b0 ""
   "rodrigo_castillo_ejercicios5.bcf" 0 -1 0 ""
   (generated)
-  "rodrigo_castillo_ejercicios5.blg"
   "rodrigo_castillo_ejercicios5.bbl"
-["pdflatex"] 1601533932 "rodrigo_castillo_ejercicios5.tex" "rodrigo_castillo_ejercicios5.pdf" "rodrigo_castillo_ejercicios5" 1601533933
+  "rodrigo_castillo_ejercicios5.blg"
+["pdflatex"] 1601579017 "rodrigo_castillo_ejercicios5.tex" "rodrigo_castillo_ejercicios5.pdf" "rodrigo_castillo_ejercicios5" 1601579020
   "/etc/texmf/web2c/texmf.cnf" 1595594532 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -130,10 +130,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1596150322 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1596150352 4127295 f21aa6dd5af563c6cba4de0295b9049c ""
-  "Images/negro_cara.png" 1601515659 16054 31bb79f6f23eb01a7c7ec0300888d92e ""
-  "rodrigo_castillo_ejercicios5.aux" 1601533933 1487 75f79ed841d8306cb6547b7e6a1e8c2c ""
+  "rodrigo_castillo_ejercicios5.aux" 1601579019 1557 0b8c09b49bbee6f4b3c8728679cf75b0 ""
   "rodrigo_castillo_ejercicios5.bbl" 0 -1 0 "bibtex rodrigo_castillo_ejercicios5"
-  "rodrigo_castillo_ejercicios5.tex" 1601533930 4494 8f6c4c6c6df13cba74eedcd48cb2c400 ""
+  "rodrigo_castillo_ejercicios5.tex" 1601579015 5014 5c2ef6f552de53a32ee5394126e48d88 ""
   (generated)
   "rodrigo_castillo_ejercicios5.log"
   "rodrigo_castillo_ejercicios5.aux"
