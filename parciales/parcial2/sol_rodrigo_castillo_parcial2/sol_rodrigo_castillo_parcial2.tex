@@ -1,0 +1,149 @@
+% article example for classicthesis.sty
+\documentclass[10pt,a4paper]{article} % KOMA-Script article scrartcl
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+\usepackage{lipsum}     %lorem ipsum text
+\usepackage{titlesec}   %Section settings
+\usepackage{titling}    %Title settings
+\usepackage[margin=10em]{geometry}  %Adjusting margins
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{amsmath}    %Display equations options
+\usepackage{amssymb}    %More symbols
+\usepackage{xcolor}     %Color settings
+\usepackage{pagecolor}
+\usepackage{mdframed}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{graphicx}
+\graphicspath{ {./Images/} }
+\setlength{\columnsep}{1cm}
+
+% ====| color de la pagina y del fondo |==== %
+\pagecolor{white}
+\color{black}
+
+
+
+\begin{document}
+    %========================{TITLE}====================%
+    \title{{  Parcial 2 algebra abstracta  }}
+    \author{{Rodrigo Castillo}}
+    \date{\today}
+
+    \maketitle
+
+
+    %=======================NOTES GOES HERE===================%
+    \section{Punto1 construya un campo con $7 ^{3} $elementos}
+        \textbf{solucion}
+        \\ el Teorema de Galois visto en clase nos dice que un polinomio de
+        grado 3 en $Z_p$nos genera un campo de $7 ^{3} $elementos.
+        \\
+        sea el polinomio : $x ^{3}  +x ^{2} +  x $ $\in Z_7$ tenemos que genera
+        un campo de $7 ^{3} $ elementos
+        \\
+        \textbf{el polinomio es irreducible}
+        \\
+        supongamos que existen dos polinomios $x,y$ tales que $x \cdot y = x
+        ^{3}  + x ^{2}  + x$ .  por lo tanto, $x$ es de grado 2 y $y$ es de
+        grado 1 (o el caso análogo). luego x es de la forma $nx ^{2}  + nx $ y
+        y es de la forma $nx$ , luego $x \cdot y$ es un polinomio de laforma
+        $nx ^{3} + 2nx \not= x ^{3} + x ^{2}  + x  $.
+
+        \section{Punto 2:  Sea G un grupo y $g \in G$ , demuestre que si
+        ${e,g}$ es un grupo normal entonces $g$ pertenece al centro de $G$}
+
+        supongamos que $g \in G$  y que $g \not= e$ , además, supongamos que
+        ${e,g}$ es un grupo normal, por lo tanto, para cualquier $h \in G$ se
+        tiene que $hegh ^{-1} $ =$eg$ , como $eg = g$, se tiene que $ hgh ^{-1}
+        = g$ , por lo tanto se tiene que $gh = hg$, por lo tanto $g \in Z(G)$
+
+
+        \section{Punto 3: demuestre que el grupo Klein V4 es isomorfo a $Z_2 \times Z_2$}
+        \textbf{aclaración:} , definí los elementos como $a,b$ , sin embargo, $a,b$
+        deberían ser tomados en $Z_2$ como $a = 0 , b=1$
+
+            \subsection{existe una función biyectiva del conjunto $KleinV4$
+            hasta $ Z_2 \times Z_2$}
+                sea $F$ una función desde $K_4$ hasta $Z_2 \times Z_2$ tal que a cada elemento de $K_4$ que es de tipo:
+                \subsubsection{inyectividad}
+                    $\begin{pmatrix}
+                      a & b
+                      \\
+                      -b & a
+                    \end{pmatrix}$
+                    le asigna un elemento $(a,b) , (b,a)$
+                    por lo tanto para cada $k \in 4_4$ existe un $z \in Z_2
+                    \times Z_2$ tal que $f(k) = z$
+                \subsubsection{sobreyectividad}
+                supongamos que $f(k) = f(k')$ , así se tiene que $(a,b) , (b,a)$ = $(a',b') , (b',a')$ luego $ k = \begin{pmatrix}
+                    a & b
+                    \\
+                    -b & -a
+                \end{pmatrix}
+                $ y $k ' = \begin{pmatrix}
+                    a' & b'
+                    \\
+                    -b & -a'
+                \end{pmatrix}
+                $ y así obtenemos que $k = k'$
+                por lo tanto $f$es sobre
+                \subsection{la imagen de la operación es la operación de las imágines}
+                esto es facil de ver en $Z_2 \times Z_2$ pues es un conjunto de 4 elementos
+
+
+        \section{ Punto 4: Sea A un anillo conmutativo ....}
+            sea $a \in A$ tal que $a \not= 0$ y que $a$ no es divisor de $0$.
+            \\ como $A$ es un conjunto finito y además como $a$ no es divisor
+            de 0, puedo elevar a $a$ por todos los elementos de $A$ sabiendo
+            que ninguno de ellos va  aser divisor de 0, por lo que tengo un
+            anillo de $[a , a ^{2} ... , a ^{n+1}  ]$ , por lo tanto... $1 = a
+            ^{n +1} = ax ^{n}  $
+             por lo tanto existe $n \in A$ tal que $a ^{n}  = 1$. luego la
+             inversa de $a$ es $a ^{n+1} $
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    %=======================NOTES ENDS HERE===================%
+
+    % bib stuff
+    \nocite{*}
+    \addtocontents{toc}{{}}
+    \addcontentsline{toc}{section}{\refname}
+    \bibliographystyle{plain}
+    \bibliography{../Bibliography}
+\end{document}

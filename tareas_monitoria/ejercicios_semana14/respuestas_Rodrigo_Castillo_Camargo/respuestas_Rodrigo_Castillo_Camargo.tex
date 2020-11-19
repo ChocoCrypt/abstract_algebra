@@ -1,0 +1,154 @@
+% article example for classicthesis.sty
+\documentclass[10pt,a4paper]{article} % KOMA-Script article scrartcl
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+\usepackage{lipsum}     %lorem ipsum text
+\usepackage{titlesec}   %Section settings
+\usepackage{titling}    %Title settings
+\usepackage[margin=10em]{geometry}  %Adjusting margins
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{amsmath}    %Display equations options
+\usepackage{amssymb}    %More symbols
+\usepackage{xcolor}     %Color settings
+\usepackage{pagecolor}
+\usepackage{mdframed}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{graphicx}
+\graphicspath{ {./Images/} }
+\setlength{\columnsep}{1cm}
+
+% ====| color de la pagina y del fondo |==== %
+
+
+
+\begin{document}
+    %========================{TITLE}====================%
+    \title{{ Respuestas ejercicios semana 14} }
+    \author{{Rodrigo Castillo}}
+    \date{\today}
+
+    \maketitle
+
+
+    %=======================NOTES GOES HERE===================%
+    \section{demuestre que la distancia de Hamming es una distancia:}
+        \textbf{1:la distancia entre $d(v,w) \not= 0$ }
+        \\
+        sean ,$v,w$ palabras tales que $v \not= w$ , por lo tanto, tenemos que para
+        todas las letras $w_1 , w_2 , w_3 ... w_n \in w$ y $j_1 , j_2 , j_3 ... ,
+        j_n \in v$ se tiene algún $i$ tal que $w_i \not= j_i$ , luego $d(w,v) >= 1
+        $  , luego $d(w,v) \not= 0$
+        \\
+        \textbf{2: la distancia entre w y v es la misma que entre v y w }
+        \\
+        sean $v,w$ palabras en $F$ ,sean $v_1 , v_2 , ... , v_n$  y $w_1 ,w_2 , ...
+        ,w_n$ las letras de $v,w$ respectivamente , por lo tanto tenemos que
+        $d(v,w)$ = $\sum_{i=0}^{n} 1$ si $v_i \not= j_i$  = $\sum_{i=0}^{n} 1$ si
+        $w_i \not= v_i$ por lo tanto $d(v,w)$ = $d(w,v)$
+        \\
+        \textbf{3:desigualdad trangular}
+        \\
+        esto se hace por contradicción
+        \section{sea $F = {1,2,3}$ y considere el código
+        \\
+         $C = {112233,223311 ,
+        331122 , 123123 , 231231 , 312312}$}
+
+        \textbf{calcule la distancia mínima}
+        \\
+        \textbf{la distancia mínima es :} 4
+        \section{sea $F = \{0,1\} $ y considere el siguiente código: ${0 ^{n}  ,
+        1 ^{n}  }$ donde $0 ^{n}  = 00...0 n veces$ }
+        demuestre que C cumple la distancia del singulete
+        $n = 2m+1 $es
+        impar entonces también es un código perfecto
+        \\
+        \textbf{Solucion:}
+        la cota del singulete se define como $|C| <= q ^{n-d+1} $
+        tenemos que $q= |F| = 2$
+        \\
+        la distancia mínima es n
+        \\
+        $|C| <= 2 ^{n-n+1} $
+        \\
+        $|C| <= 2 ^{1} $
+        \\
+        $|C| <= 2  $
+        \\
+        $2 <= 2  $ por lo tanto se cumple.
+        \\
+        \textbf{distancia de hamming:}
+
+        \begin{equation}
+            |C| <= \frac{q ^{n} }{ \sum_{i=0}^{e}  (n)conv(i)  (q-1) ^{i}        }
+        \end{equation}
+        \color{red} por alguna razón la notación de ${n}\choose{i}$ no funciona
+        dentro de la sumatoria :( \color{black}
+        como $q = 2$ y $m$es impar, el código es perfecto \color{blue} esto es de las diapositivas \color{black}
+
+
+        \section{sea $F = [1,2]$ }considere el código $C = [ 000000 , 001111 ,
+        110011 , 1111000 , 101010]$
+        \textbf{demuestre que C no es un código lineal:}
+            no es un código lineal  porque si sumamos $101010$ xor $001111$  =
+        $111001$ , note que $111001 \notin C$ luego $C$ no es un código lineal
+        \\
+        \textbf{Ahoran haga un C' tal que $C \in C'$ y $C'$ sea un código lineal}
+        \\
+        \textit{una solución para este problema puede ser poner todas las sumas
+        posibles en $C$ y añadirlas en $C'$} ...
+        \\
+        los que no están son ...
+        \\
+        ... $001111 $xor $101010$ $=100101$
+        \\
+        ... $110011 $xor $011001$ = $011001$
+        \\
+        ... $111100 $xor $101010$ = $010110$
+        \\
+        luego hay que añadir sus sumas  , por lo que el nuevo conjunto $C' =
+        [000000, 001111, 110011 , 111100 , 101010 , 100101 , 011001 , 010110 ]$
+        \textbf{Encuentre una base para $C$}
+        \\
+        este ejercicio es equivalente a encontrar 6 palabras código linealmente
+        independientes.
+        $base  = [110011 , 100101 , 001111  , 111001 , 101010 , 010110]$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    %=======================NOTES ENDS HERE===================%
+
+    % bib stuff
+    \nocite{*}
+    \addtocontents{toc}{{}}
+    \addcontentsline{toc}{section}{\refname}
+    \bibliographystyle{plain}
+    \bibliography{../Bibliography}
+\end{document}
