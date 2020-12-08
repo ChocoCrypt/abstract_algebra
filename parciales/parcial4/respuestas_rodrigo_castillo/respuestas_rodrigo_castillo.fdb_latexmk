@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex parcial3_Rodrigo_Castillo_Camargo"] 1605845703 "parcial3_Rodrigo_Castillo_Camargo.aux" "parcial3_Rodrigo_Castillo_Camargo.bbl" "parcial3_Rodrigo_Castillo_Camargo" 1605845703
+["bibtex respuestas_rodrigo_castillo"] 1607034217 "respuestas_rodrigo_castillo.aux" "respuestas_rodrigo_castillo.bbl" "respuestas_rodrigo_castillo" 1607034217
   "../Bibliography.bib" 0 -1 0 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "parcial3_Rodrigo_Castillo_Camargo.aux" 1605845695 2502 b7ec3a4701a6a76f7d39d8b42cd5a922 ""
-  "parcial3_Rodrigo_Castillo_Camargo.bcf" 0 -1 0 ""
+  "respuestas_rodrigo_castillo.aux" 1607034217 813 7422f8c73659a7e8c10f6d393d234986 ""
+  "respuestas_rodrigo_castillo.bcf" 0 -1 0 ""
   (generated)
-  "parcial3_Rodrigo_Castillo_Camargo.bbl"
-  "parcial3_Rodrigo_Castillo_Camargo.blg"
-["pdflatex"] 1605845695 "parcial3_Rodrigo_Castillo_Camargo.tex" "parcial3_Rodrigo_Castillo_Camargo.pdf" "parcial3_Rodrigo_Castillo_Camargo" 1605845703
+  "respuestas_rodrigo_castillo.blg"
+  "respuestas_rodrigo_castillo.bbl"
+["pdflatex"] 1607034217 "respuestas_rodrigo_castillo.tex" "respuestas_rodrigo_castillo.pdf" "respuestas_rodrigo_castillo" 1607034217
   "/etc/texmf/web2c/texmf.cnf" 1595594532 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -42,8 +42,8 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1480098733 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1480098733 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1480098733 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1480098733 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1480098733 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1480098733 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf" 1480098812 26223 0286ca123141cff8dd4956c4576d2ef4 ""
@@ -130,12 +130,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1596150322 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1596150352 4127295 f21aa6dd5af563c6cba4de0295b9049c ""
-  "Images/control.jpeg" 1605845509 76756 9ddbdf3de253803f3de81e82ac464f52 ""
-  "matrizcontrol.png" 1605654979 40740 8e2a4309d7687c700b773e24cddac039 ""
-  "parcial3_Rodrigo_Castillo_Camargo.aux" 1605845695 2502 b7ec3a4701a6a76f7d39d8b42cd5a922 ""
-  "parcial3_Rodrigo_Castillo_Camargo.bbl" 0 -1 0 "bibtex parcial3_Rodrigo_Castillo_Camargo"
-  "parcial3_Rodrigo_Castillo_Camargo.tex" 1605845694 11574 3c06f1bd2858c24eed51d853503af6de ""
+  "respuestas_rodrigo_castillo.aux" 1607034217 813 7422f8c73659a7e8c10f6d393d234986 ""
+  "respuestas_rodrigo_castillo.bbl" 0 -1 0 "bibtex respuestas_rodrigo_castillo"
+  "respuestas_rodrigo_castillo.tex" 1607034215 6283 e688129fb64d16fd79901b90cd20f4c6 ""
   (generated)
-  "parcial3_Rodrigo_Castillo_Camargo.aux"
-  "parcial3_Rodrigo_Castillo_Camargo.log"
-  "parcial3_Rodrigo_Castillo_Camargo.pdf"
+  "respuestas_rodrigo_castillo.aux"
+  "respuestas_rodrigo_castillo.log"
+  "respuestas_rodrigo_castillo.pdf"
